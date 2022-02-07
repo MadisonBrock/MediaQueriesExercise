@@ -25,7 +25,7 @@ h1 {
           border: 10px dashed gray;
       }
       #three{
-          border: 10px dashed gray;
+          border: 10px dotted gray;
       }
   }
   @media (min-width:900px) and (min-height:500px){
@@ -41,7 +41,10 @@ h1 {
   }
   @media(orientation: portrait){
       body{
+          display: flex;
+          flex-direction: column;
          justify-content: center; 
+         text-align: center;
       }
   }
 
